@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: chocolate;
+}
+body {
+  background-image: url('background.jpg');
+}
+.title {
+  background-color: rgb(51, 9, 9);
+  margin: 0;
+  padding: 10px;
+  color: chocolate;
+  text-shadow: 1.5px 1.5px 38px rgb(236, 236, 30);
+}
+
+.main_title {
+  font-weight: bolder;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  word-spacing: 1.5px;
+}
+
+.sub_title {
+  font-size: 17px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  font-weight: bolder;
+}
+
+.obj {
+  margin-left: 550px;
+  /* Un comment after doing js  -: */
+  white-space: pre-line;
+}
+.accuracy {
+  margin-right: 550px;
+}
+
+.footer {
+  background-color: rgb(51, 9, 9);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 18.5px;
+  text-shadow: 1.5px 1.5px 38px rgb(236, 236, 30);
+}
+
+/* Styling for canvas */
+canvas {
+  margin-top: 100px;
+  border: 10px solid rgb(128, 114, 114);
+  box-shadow: 1px 1px 38px white;
+  border-radius: 20px;
+}
